@@ -50,9 +50,9 @@ $ git push origin master
 #后续提交
 ```
 
-12、git pull 同步远程库内容
+12、git pull origin <branch name>同步远程库内容
 
-13、git push origin master 本地推送到主分支上
+13、git push origin <branch name> 本地推送到主分支上
 
 14、创建与合并分支
 	查看分支：git branch
@@ -66,5 +66,5 @@ $ git push origin master
 	合并某分支到当前分支：git merge <name>
 	
 	删除分支：git branch -d <name>
-	
+
 15、
