@@ -41,4 +41,12 @@ git reset --hard HEAD-1
 
 10、使用git checkout -- 还原
 
-11、
+11、将本地库文件所有内容连接并推送到远程库上
+
+```git
+$ git remote add origin git@github.com:michaelliao/learngit.git
+$ git push -u origin master
+$ git push origin master
+#后续提交
+```
+
