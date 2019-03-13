@@ -45,7 +45,7 @@ git reset --hard HEAD-1
 
 ```git
 $ git remote add origin git@github.com:michaelliao/learngit.git
-$ git push -u origin master
+$ git push -u origin master 
 $ git push origin master
 #后续提交
 ```
@@ -75,3 +75,5 @@ $ git push origin master
 
 	此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 	
+
+[参考文档地址](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013760174128707b935b0be6fc4fc6ace66c4f15618f8d000)
