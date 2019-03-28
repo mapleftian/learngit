@@ -70,10 +70,19 @@ $ git push origin master
 15、第一次关联远程库
 
 	要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
-
-	关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
-
-	此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 	
+	关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+	
+	此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
 [参考文档地址](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013760174128707b935b0be6fc4fc6ace66c4f15618f8d000)
+
+
+
+16、第一次创建时需要创建SSH Key，
+
+```shell
+ssh-keygen -t rsa -C "youremail@example.com"
+```
+
+生成ssh key，并在github中添加
