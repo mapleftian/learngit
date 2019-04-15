@@ -1,0 +1,3 @@
+### SecondaryNameNode的作用
+
+- 
